@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
 
-    // private val myData:MyData = MyData("Lorem Ipsum")
     // assign the ipsum to variable first
     val PirateIpsum: MyData = MyData("Pirate Ipsum","Lugger haul wind Pirate Round strike colors rigging grapple crimp gangplank quarter run a rig. Black spot run a rig Yellow Jack Jack Ketch piracy Spanish Main man-of-war boom deadlights chase. Bilge rat hogshead Pieces of Eight American Main red ensign spanker flogging list hardtack aye.\n" +
             "\n" +
@@ -63,7 +62,6 @@ class MainActivity : AppCompatActivity() {
             android.R.layout.simple_spinner_dropdown_item
         )
         binding.ipsumSpinner.adapter = adapter
-
         binding.ipsumSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(p0: AdapterView<*>?) {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
@@ -107,6 +105,8 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             creatorFillPlaceholder.visibility = View.VISIBLE
             creatorButton.visibility = View.VISIBLE
+            view.visibility = View.GONE
+            creatorFillPlaceholder.requestFocus()
 
         }
 

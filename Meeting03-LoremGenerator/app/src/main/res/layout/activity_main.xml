@@ -39,7 +39,7 @@
             android:layout_marginTop="@dimen/layout_margin"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@={MyData.placeholder}"
+            android:text="aa"
             android:textAppearance="@style/text_style" />
 
         <Button
@@ -53,7 +53,7 @@
             android:id="@+id/creator_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@={MyData.creator}"
+            android:text="bb"
             android:textAlignment="center"
             android:textAppearance="@style/text_style"
             android:background="@color/colorAccent"
