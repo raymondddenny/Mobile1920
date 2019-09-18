@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="box_size">300px</dimen>
+<!--    <drawable name="the_star">30px</drawable>-->
+</resources>

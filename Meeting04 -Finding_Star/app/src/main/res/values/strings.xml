@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FindingNemo</string>
+    <string name="title_text">Finding Nemo</string>
+    <string name="box_content1">BOX 1</string>
+    <string name="box_content2">BOX 2</string>
+    <string name="box_content3">BOX 3</string>
+    <string name="box_content4">BOX 4</string>
+    <string name="box_content5">BOX 5</string>
+    <string name="instruction_box">Finding nemo by tapping to those boxes</string>
+    <string name="TheStar">30dp</string>
+</resources>
