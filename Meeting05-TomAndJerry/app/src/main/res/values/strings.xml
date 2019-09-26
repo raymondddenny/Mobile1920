@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tom and Jerry</string>
+
+        <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_title">Tom and Jerry</string>
+    <string name="start_button_text">Start</string>
+    <string name="how_to_play">How to play</string>
+    <string name="how_to_play_body">
+        Ini adalah Game Tom And Jerry, dimana kamu berperan agar jerry dapat mendapatkan keju yang dia inginkan, ayo bantu jerry mendapat
+        keju yang dia mau.
+    </string>
+    <string name="action_button_text">Continue</string>
+    <string name="unlocked_endings">Unlocked Endings</string>
+    <string name="bad_ending">Jerry Mati </string>
+    <string name="normal_ending">Tom memakan seisi kulkas</string>
+    <string name="best_ending"> Jerry Memakan Keju" </string>
+</resources>
