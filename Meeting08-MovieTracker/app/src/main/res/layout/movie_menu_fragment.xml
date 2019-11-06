@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mainmenu.MovieMenu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/titleMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Tracker Menu"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="32dp"
+            android:textSize="24sp"
+            android:textAlignment="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Add Movie"
+                 />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Update Movie"
+
+                 />
+            </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="HELLO"/>
+        </ScrollView>
+    </LinearLayout>
+</layout>

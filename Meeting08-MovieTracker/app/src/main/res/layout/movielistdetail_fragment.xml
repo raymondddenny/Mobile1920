@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".movielist.movielistdetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Add Movie Detail"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/movie_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Movie Title"
+            android:inputType="text" />
+
+        <RatingBar
+            android:id="@+id/movie_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:layout_marginBottom="16dp"  />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Movie" />
+
+    </LinearLayout>
+
+</layout>
